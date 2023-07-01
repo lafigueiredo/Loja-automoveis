@@ -2,7 +2,7 @@
 // Configuração do banco de dados
 $host = "localhost";
 $username = "root";
-$password = "";
+$password = "6tghL6y8dCVDaKzCrHvr";
 $database = "db_conce";
 
 // Conexão com o banco de dados
