@@ -2,10 +2,10 @@
 // Obter o valor do parâmetro "id" enviado via POST
 $id = $_POST["id"];
 
-$host = "db-concessionaria.ch6oiaqhw5j6.us-east-1.rds.amazonaws.com";
-$username = "lafigueiredo";
-$password = "6tghL6y8dCVDaKzCrHvr";
-$database = "db_concessionaria";
+$host = "web-conce.cyp6jjti2v9z.sa-east-1.rds.amazonaws.com";
+$username = "jason";
+$password = "X3qczvx6i5qJwt0XOmeq";
+$database = "db_conce";
 
 // Conexão com o banco de dados
 $conn = new mysqli($host, $username, $password, $database);
