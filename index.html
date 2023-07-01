@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
+    <!-- Definição do tipo de documento HTML e idioma -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Fábrica de automóveis</title>
-    <link rel="stylesheet" href="css/styleIndex.css">
+    <!-- Importação de fontes do Google e estilos CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/materialize.css">
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Areas</title>
 </head>
-<body>
-    <!-- Marcação do titulo da pagina inicial -->
-    <h1 id="h">Fábrica de automóveis</h1>
-    
-    <!-- Div resposavel por receber o conteudo do JS -->
-    <div id="principal" class="border"></div>
 
-    <!-- Script reposavel por carregar o JS da pagina -->
-    <script src="js/index.js"></script>
+<body>
+
+    <!-- Contêiner principal com uma classe "border" para criar uma borda -->
+    <div class="container border">
+        <div class="row">
+
+            <!-- Coluna de tamanho 12, ocupando toda a largura -->
+            <div class="col s12">
+
+                <!-- Título principal da página -->
+                <h1>Fabrica de Automoveis</h1>
+
+            </div>
+
+        </div>
+
+        <!-- Área vazia para adicionar elementos dinamicamente -->
+        <div class="row" id="areas-index">
+        </div>
+
+    </div>
+
+    <!-- Importação de arquivos JavaScript -->
+    <script src="JS/materialize.js"></script>
+    <script src="JS/index.js"></script>
+
 </body>
+
 </html>
