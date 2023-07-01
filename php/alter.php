@@ -4,7 +4,7 @@ $id = $_POST["id"];
 
 $host = "db-concessionaria.ch6oiaqhw5j6.us-east-1.rds.amazonaws.com";
 $username = "lafigueiredo";
-$password = "";
+$password = "6tghL6y8dCVDaKzCrHvr";
 $database = "db_concessionaria";
 
 // Conexão com o banco de dados
